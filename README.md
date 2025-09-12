@@ -248,13 +248,13 @@ clear_character_response = f"한시율(AI): {character_response}"
 - **기존**: `character/hansiyul/{actorId}/preference`
 - **개선**: `users/{actorId}/preference`
 
-## 📊 성능 지표
+##  성능 지표
 
 - **메모리 조회 속도**: 병렬 처리로 75% 향상 (4초 → 1초)
 - **메모리 정확도**: 주체 명시로 95% 이상 정확한 저장
 - **응답 품질**: 컨텍스트 기반 개인화된 응답
 
-## 🔮 향후 계획
+##  향후 계획
 
 - [ ] Custom Memory Strategy 구현
 - [ ] 다중 캐릭터 지원
@@ -262,7 +262,7 @@ clear_character_response = f"한시율(AI): {character_response}"
 - [ ] 메모리 시각화 대시보드
 - [ ] 감정 분석 기반 응답 조절
 
-## 📚 참고 자료
+##  참고 자료
 
 
 - [Amazon Bedrock 사용자 가이드](https://docs.aws.amazon.com/bedrock/)
@@ -273,4 +273,11 @@ clear_character_response = f"한시율(AI): {character_response}"
 
 ---
 
-**Made with ❤️ using AWS Agent Core Memory**
+Test 
+![image.png](attachment:55fb124e-99e7-4600-a2c6-722e3cad78ff:image.png)
+
+
+
+
+
+**Powered by AWS Agent Core Memory**
