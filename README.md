@@ -1,4 +1,4 @@
-# 한시율 캐릭터 챗봇
+# Amazon Bedrock AgentCore 를 활용한 기억력이 좋은 캐릭터 챗봇
 
 AWS Agent Core Memory를 활용한 지능형 캐릭터 챗봇 시스템
 
