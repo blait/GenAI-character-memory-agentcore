@@ -273,8 +273,41 @@ clear_character_response = f"한시율(AI): {character_response}"
 
 ---
 
-Test 
-![image.png](attachment:55fb124e-99e7-4600-a2c6-722e3cad78ff:image.png)
+## Test 
+<img width="755" height="147" alt="image" src="https://github.com/user-attachments/assets/ba959213-86e4-43e3-b8f4-3bb70fe1f7e2" />
+
+데님을 좋아하는 유저와의 대화
+유저 ID : user_65c2df22
+세션 ID : session_63104ef7
+
+
+1. 기본 대화 시행, STM,LTM 잘 저장됨 
+<img width="1378" height="1359" alt="image" src="https://github.com/user-attachments/assets/bdb6f14e-fe66-4533-83c6-ee2931ea48f9" />
+
+2. 종료 후 같은 userid, sessionid 로 다시 접속하면 STM,LTM 둘 다 잘 저장된 것을 가져와서 대화가 그대로 이어진다.(데님을 좋아한다는 것을 기억함, 소소한 대화까지 싹 기억함)
+<img width="1371" height="1478" alt="image" src="https://github.com/user-attachments/assets/7f4c41d9-164b-43e4-b5a7-6727030026b4" />
+
+3. sessionid 를 다르게 하고, userid 를 같게 하면 아래 처럼 LTM 중 semantic, preferance 만 이어진다. (데님을 좋아한다는 것을 기억함)
+<img width="1368" height="871" alt="image" src="https://github.com/user-attachments/assets/bf753756-4fac-47da-8c12-1b5409d6b447" />
+
+
+유저를 바꿔서 새로 진행해봄
+
+애플을 좋아하는 유저와의 대화 
+유저 ID : user_d6dc20e0
+세션 ID : session_82b72100
+ 
+1. 아래 처럼 이전 데님 좋아했던 대화내용 싹 잊고 애플 좋아하는 유저라는 것을 기억함
+<img width="1374" height="716" alt="image" src="https://github.com/user-attachments/assets/a86da0c6-24f7-4e97-9ee0-b8bf90f7a071" />
+
+
+다시 데님 좋아하는 유저로 바꿔서 기억이 이어지는 지 테스트 
+유저 ID : user_65c2df22
+
+1. 이전 데님 선호 기억을 잘 가지고 있음
+<img width="1367" height="879" alt="image" src="https://github.com/user-attachments/assets/3c97f6ea-77ab-4c5e-b772-398d23d7bfd7" />
+
+   
 
 
 
